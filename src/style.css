@@ -1,0 +1,73 @@
+*{
+    background-color: #cfcfff;
+    font-family: monospace;
+}
+.App{
+    text-align: center;
+}
+.App .game{
+    display: flex;
+}
+.App .game .player{
+    flex-grow: 1;
+    text-align: center;
+}
+.intro {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.introthings button{
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+.introthings button:hover{
+    transform: scale(1.3);
+}
+.player p{
+    display: inline-block;
+    font-size: 1.5rem;
+}
+.player img{
+    margin: 0 0.25rem;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    transition: 0.3s;
+    display: block;
+}
+.App .game .computer{
+    flex-grow: 1;
+}
+.computer img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 1.5rem;
+}
+.player img:hover{
+    transform: scale(1.05);
+}
+.popup{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.popup button{
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+.popup button:hover{
+    transform: scale(1.2);
+}
