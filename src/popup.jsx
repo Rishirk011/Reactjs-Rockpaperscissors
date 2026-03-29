@@ -22,7 +22,7 @@ function Popup({result,setDisplay,points,setStart,setPoints}){
                 
                 
                 <button onClick={closePopup}>
-                    {points !==1? "close": "Return to start"}</button>
+                    {points !==5? "close": "Return to start"}</button>
             </div>
 
         </div>,document.querySelector("#popup") 
